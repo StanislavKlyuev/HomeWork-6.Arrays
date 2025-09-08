@@ -73,7 +73,7 @@ public class Main {
         }
         for (int i = arrays.length - 1; i >= 0; i--) {
             if (i == 0) {
-                System.out.println(arr[i]);
+                System.out.println(arrays[i]);
                 break;
             }
             System.out.print(arrays[i] + ", ");
